@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drafitra — Confidentialité</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root {
+      --fond: #fffaf6;
+      --texte: #2b1d14;
+      --doux: #6b5445;
+      --accent: #e8590c;
+      --carte: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fond: #15110e;
+        --texte: #f3e9e1;
+        --doux: #c2ad9f;
+        --accent: #ff9a4d;
+        --carte: #211a15;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--fond);
+      color: var(--texte);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+    header { display: flex; align-items: center; gap: 12px; }
+    header img { width: 48px; height: 48px; border-radius: 12px; }
+    h1 { font-size: 1.6rem; margin: 0; }
+    h2 { color: var(--accent); font-size: 1.2rem; margin-top: 2rem; }
+    section { background: var(--carte); border-radius: 16px; padding: 4px 20px 16px; margin-top: 24px; }
+    nav a { color: var(--accent); margin-right: 16px; }
+    .date { color: var(--doux); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icons/Icon-192.png" alt="">
+    <h1>Drafitra</h1>
+  </header>
+  <nav><a href="#fr">Français</a><a href="#mg">Malagasy</a></nav>
+  <p class="date">29 septembre 2026</p>
+
+  <section id="fr" lang="fr">
+    <h2>Politique de confidentialité</h2>
+    <p>Drafitra aide à structurer, préparer et présenter des plans (discours, projets…). Cette page explique quelles données l'application utilise.</p>
+    <h3>Données enregistrées sur votre appareil</h3>
+    <p>Vos plans, préparations, images, répétitions et réglages sont enregistrés sur votre appareil (ou dans votre navigateur pour la version web). L'application fonctionne sans compte et sans Internet.</p>
+    <h3>Compte et synchronisation (facultatif)</h3>
+    <p>Si vous créez un compte, votre adresse e-mail et un mot de passe (chiffré) servent à vous identifier. Vos données sont alors copiées sur un serveur Supabase pour les retrouver sur vos autres appareils. Chaque compte ne peut lire que ses propres données. Les échanges sont chiffrés (HTTPS).</p>
+    <h3>Ce que nous ne faisons pas</h3>
+    <p>Pas de publicité, pas de mesure d'audience, pas de revente ni de partage de vos données avec des tiers.</p>
+    <h3>Supprimer vos données</h3>
+    <p>Dans l'application : Réglages → Compte → « Supprimer mon compte ». Votre compte et toutes les données synchronisées sont effacés du serveur. Les données de l'appareil disparaissent en désinstallant l'application (ou en effaçant les données du site dans le navigateur).</p>
+    <h3>Contact</h3>
+    <p>Pour toute question, écrivez à l'adresse indiquée sur la fiche de l'application dans le Play Store.</p>
+  </section>
+
+  <section id="mg" lang="mg">
+    <h2>Fiarovana ny mombamomba anao</h2>
+    <p>Manampy amin'ny fandrafetana, fanomanana ary fanehoana drafitra (lahateny, tetikasa…) i Drafitra. Ity pejy ity dia manazava ny angona ampiasain'ny rindranasa.</p>
+    <h3>Angona voatahiry ao amin'ny fitaovanao</h3>
+    <p>Voatahiry ao amin'ny fitaovanao (na ao amin'ny mpitety tranonkala raha amin'ny tranonkala) ny drafitrao, ny fanomananao, ny sary, ny fanazaran-tena ary ny fikirakirana. Mandeha tsy misy kaonty sy tsy misy Internet ny rindranasa.</p>
+    <h3>Kaonty sy fampifanarahana (tsy voatery)</h3>
+    <p>Raha mamorona kaonty ianao, ny adiresy mailakao sy ny tenimiafina (voaaro) no ampiasaina hamantarana anao. Adika any amin'ny mpizara Supabase ny angonao mba hahitanao azy amin'ny fitaovanao hafa. Ny angony ihany no azon'ny kaonty tsirairay vakiana. Voaaro (HTTPS) ny fifandraisana.</p>
+    <h3>Izay tsy ataonay</h3>
+    <p>Tsy misy dokam-barotra, tsy misy fanaraha-maso ny fampiasana, tsy amidy na zaraina amin'olon-kafa ny angonao.</p>
+    <h3>Mamafa ny angonao</h3>
+    <p>Ao amin'ny rindranasa : Fikirakirana → Kaonty → « Hamafa ny kaontiko ». Voafafa amin'ny mpizara ny kaontinao sy ny angona rehetra voatahiry tao. Ny angona ao amin'ny fitaovana dia foana rehefa esorina ny rindranasa (na fafana ny angon'ny tranonkala ao amin'ny mpitety).</p>
+    <h3>Fifandraisana</h3>
+    <p>Raha misy fanontaniana, soraty ny adiresy hita ao amin'ny pejin'ny rindranasa ao amin'ny Play Store.</p>
+  </section>
+</main>
+</body>
+</html>
